@@ -61,7 +61,7 @@
 <meta property="og:type" content="article">
 <meta property="og:title" content="Second post">
 <meta property="og:url" content="blog.xmt.design/2016/03/31/Second-post/index.html">
-<meta property="og:site_name" content="小马特啊小马特">
+<meta property="og:site_name" content="风在摇他的叶">
 <meta property="og:description" content="second post testtest title: admin plugin testtest location: localhosttest result: success">
 <meta property="og:updated_time" content="2016-03-31T05:41:20.000Z">
 <meta name="twitter:card" content="summary">
@@ -74,7 +74,7 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     scheme: 'Muse',
-    sidebar: {"position":"left","display":"post"},
+    sidebar: {"position":"left","display":"hide"},
     fancybox: true,
     motion: true,
     duoshuo: {
@@ -84,7 +84,7 @@
   };
 </script>
 
-  <title> Second post | 小马特啊小马特 </title>
+  <title> Second post | 风在摇他的叶 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="en">
@@ -125,7 +125,7 @@
   <div class="custom-logo-site-title">
     <a href="/"  class="brand" rel="start">
       <span class="logo-line-before"><i></i></span>
-      <span class="site-title">小马特啊小马特</span>
+      <span class="site-title">风在摇他的叶</span>
       <span class="logo-line-after"><i></i></span>
     </a>
   </div>
@@ -147,12 +147,12 @@
     <ul id="menu" class="menu">
       
         
-        <li class="menu-item menu-item-home">
-          <a href="/" rel="section">
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
             
-              <i class="menu-item-icon fa fa-home fa-fw"></i> <br />
+              <i class="menu-item-icon fa fa-th-list fa-fw" style="font-size:18px"></i> <br />
             
-            Home
+            Categories
           </a>
         </li>
       
@@ -160,19 +160,19 @@
         <li class="menu-item menu-item-archives">
           <a href="/archives" rel="section">
             
-              <i class="menu-item-icon fa fa-archive fa-fw"></i> <br />
+              <i class="menu-item-icon fa fa-calendar fa-fw" style="font-size:18px"></i> <br />
             
             Archives
           </a>
         </li>
       
         
-        <li class="menu-item menu-item-tags">
-          <a href="/tags" rel="section">
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
             
-              <i class="menu-item-icon fa fa-tags fa-fw"></i> <br />
+              <i class="menu-item-icon fa fa-arrow-circle-right fa-fw" style="font-size:18px"></i> <br />
             
-            Tags
+            About
           </a>
         </li>
       
@@ -226,9 +226,16 @@
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">Posted on</span>
-            <time itemprop="dateCreated" datetime="2016-03-31T13:33:00+08:00" content="2016-03-31">
-              2016-03-31
+            <time itemprop="dateCreated" datetime="2016-03-31T13:33:00+08:00" content="Mar, 31st 2016 +08:00">
+              Mar, 31st 2016 +08:00
             </time>
+            
+            
+            <span class="post-meta-item-text">&nbsp; | &nbsp;Updated on</span>
+            <time itemprop="dateUpgrated" datetime="2016-03-31T13:41:20+08:00" content="Mar, 31st 2016 +08:00">
+              Mar, 31st 2016 +08:00
+            </time>
+            
           </span>
 
           
@@ -284,13 +291,13 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2016/03/31/test/" rel="next" title="First post test">
-                <i class="fa fa-chevron-left"></i> First post test
-              </a>
-            
           </div>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2016/03/31/test/" rel="prev" title="Dropbox & VPS syncing test">
+                Dropbox & VPS syncing test <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -362,19 +369,26 @@
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">2</span>
+              <span class="site-state-item-count">4</span>
               <span class="site-state-item-name">posts</span>
             </a>
           </div>
 
           
+            <div class="site-state-item site-state-categories">
+              <a href="/categories">
+                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-name">categories</span>
+              </a>
+            </div>
+          
 
           
             <div class="site-state-item site-state-tags">
-              <a href="/tags">
-                <span class="site-state-item-count">1</span>
+              
+                <span class="site-state-item-count">6</span>
                 <span class="site-state-item-name">tags</span>
-              </a>
+              
             </div>
           
 
@@ -424,7 +438,7 @@
   &copy; 
   <span itemprop="copyrightYear">2016</span>
   <span class="with-love">
-    <i class="fa fa-heart"></i>
+    <i class="fa fa-cube"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">XMT</span>
 </div>
